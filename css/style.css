@@ -373,3 +373,13 @@ header {
         margin-bottom: 20px;
     }
 }
+
+
+h1::selection {
+    background-color: #0D6DB7;
+    color: red;
+}
+
+body::-webkit-scrollbar {
+    background: linear-gradient(#fff,blue,green), right top;
+}
